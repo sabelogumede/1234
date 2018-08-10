@@ -17,7 +17,7 @@ exports.getrecipes = function(req, res) {
 				article: recipes[i].article,
 				author: recipes[i].author,
 				img: recipes[i].img,
-				buttontext: recipes[i].buttontext
+				buttontext: recipes[i].buttontex
 			  })
 		}
 		res.apiResponse(
